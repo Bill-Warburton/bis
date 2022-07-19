@@ -1,0 +1,11 @@
+			declare 
+				outvalue boolean;
+			begin
+				if spec < 30 
+				or spec in (33, 51,67) or spec between 44 and 49 or spec between 53 and 59 or spec between 74 and 76     then
+					outvalue = true;
+				else 
+					outvalue = false;
+				end if;
+				return outvalue;
+			end;
